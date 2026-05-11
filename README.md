@@ -31,6 +31,7 @@
 |---|---|---:|---|
 | **企业官网 / 落地页** | 响应式站点、多语言、SEO 基础、Cloudflare / VPS 部署 | ¥1,500 起 | 适合品牌展示、产品介绍、获客承接 |
 | **管理后台 / 内部工具** | RuoYi / Vue / React 管理系统、报表、审批流、权限 | ¥5,000 起 | 适合团队流程、数据管理、业务提效 |
+| **客户需求整理 / 交付留痕** | 线索收口、项目台账、收款状态、交付记录、提醒 | ¥2,000 起 | 适合微信沟通多、文件散、报价和交付容易靠记忆追的服务团队 |
 | **小程序 / H5** | 微信小程序、Uni-app、活动页、报名 / 收集表单 | ¥3,000 起 | 适合活动、会员、业务触达 |
 | **SaaS 平台定制** | 多租户改造、企业版功能、数据看板、租户隔离 | ¥15,000 起 | 适合长期运营的软件业务 |
 | **AI 应用集成** | Claude Skill、Agent 工作流、LLM 集成、内容生成、RAG | ¥2,000 / 模块起 | 适合把 AI 接到真实流程里 |
@@ -44,37 +45,41 @@
 
 ### 建站 / 部署 工程工具链（真实 production 沉淀开源）
 
-### 1. [site-bootstrap](https://github.com/491034170/site-bootstrap) ⭐
+### 1. [site-bootstrap](https://github.com/tianmind-studio/site-bootstrap) ⭐
 一条命令部署静态站 / Node 应用到 VPS —— Cloudflare DNS + nginx + Let's Encrypt 全链路自动化。带 rollback、`--dry-run`、zero-deps。
-- 源码：<https://github.com/491034170/site-bootstrap>
-- Release：<https://github.com/491034170/site-bootstrap/releases/latest>
+- 源码：<https://github.com/tianmind-studio/site-bootstrap>
+- Release：<https://github.com/tianmind-studio/site-bootstrap/releases/latest>
 
-### 2. [vps-init](https://github.com/491034170/vps-init) ⭐
+### 2. [vps-init](https://github.com/tianmind-studio/vps-init) ⭐
 一键初始化 Ubuntu / Debian VPS，为中国大陆 / 香港 VPS 做过针对性调优。4 种 profile（minimal / web-cn / node-app / docker-host），全部模块幂等、可预览、带防锁死保护。
-- 源码：<https://github.com/491034170/vps-init>
-- Release：<https://github.com/491034170/vps-init/releases/latest>
+- 源码：<https://github.com/tianmind-studio/vps-init>
+- Release：<https://github.com/tianmind-studio/vps-init/releases/latest>
 
-### 3. [cloudflare-cn-kit](https://github.com/491034170/cloudflare-cn-kit) ⭐
+### 3. [cloudflare-cn-kit](https://github.com/tianmind-studio/cloudflare-cn-kit) ⭐
 面向中国/香港运维的 Cloudflare CLI。核心卖点：`cfcn ssl diag` 一条命令诊断 Flexible-SSL 无限重定向死循环（这是 CN 区域运维最常撞的墙）。
-- 源码：<https://github.com/491034170/cloudflare-cn-kit>
-- Release：<https://github.com/491034170/cloudflare-cn-kit/releases/latest>
+- 源码：<https://github.com/tianmind-studio/cloudflare-cn-kit>
+- Release：<https://github.com/tianmind-studio/cloudflare-cn-kit/releases/latest>
 
 ### 其它作品 / Other work
 
-### 4. [tianmind-landing](https://github.com/491034170/tianmind-landing)
+### 4. [client-intake-workbench](https://github.com/tianmind-studio/client-intake-workbench)
+客户需求整理和交付留痕模板包：把混乱聊天、截图、报价线索和交付反馈变成可追踪的服务流程。
+- 源码：<https://github.com/tianmind-studio/client-intake-workbench>
+
+### 5. [tianmind-landing](https://github.com/tianmind-studio/tianmind-landing)
 独立开发者 / 工作室品牌落地页模板。
-- 源码：<https://github.com/491034170/tianmind-landing>
+- 源码：<https://github.com/tianmind-studio/tianmind-landing>
 - 在线演示：<https://491034170.github.io/tianmind-landing/>
 
-### 5. [expert-review-panel](https://github.com/491034170/expert-review-panel)
+### 6. [expert-review-panel](https://github.com/tianmind-studio/expert-review-panel)
 严审型 Claude Skill / AI 工作流，面向论文、BP、代码、竞赛材料的提交前评审。
 - Live Guide：<https://491034170.github.io/expert-review-panel/>
 
-### 6. [english-coach](https://github.com/491034170/english-coach)
+### 7. [english-coach](https://github.com/tianmind-studio/english-coach)
 把 Claude 对话变成英语学习流程的 skill。
 - Live Guide：<https://491034170.github.io/english-coach/>
 
-### 7. ruoyi-saas（私有商业项目，可提供 demo）
+### 8. ruoyi-saas（私有商业项目，可提供 demo）
 基于 RuoYi-Vue 的多租户 SaaS 管理系统，支持泛域名部署和企业租户隔离。
 
 ---
@@ -135,7 +140,7 @@ A：可以。公开仓库里能先看一部分；涉及商业项目的可在沟�
 - 🌐 官网：<https://tianmind.com>
 - 📧 邮箱：<mailto:wx@tianmind.com>
 - 🛒 淘宝：搜索「天智工坊」
-- 💬 GitHub：直接提一个 [Issue](https://github.com/491034170/services/issues/new)
+- 💬 GitHub：直接提一个 [Issue](https://github.com/tianmind-studio/services/issues/new)
 
 如果你准备发需求，建议带上这几项：
 - 项目目标
