@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://tianmind.com"><img src="https://img.shields.io/badge/官网-tianmind.com-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
   <a href="mailto:wx@tianmind.com"><img src="https://img.shields.io/badge/Email-wx@tianmind.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://491034170.github.io/tianmind-landing/"><img src="https://img.shields.io/badge/案例演示-Live_Demo-7C3AED?style=flat-square&logo=githubpages&logoColor=white" alt="Demo"/></a>
+  <a href="https://tianmind-studio.github.io/tianmind-landing/"><img src="https://img.shields.io/badge/案例演示-Live_Demo-7C3AED?style=flat-square&logo=githubpages&logoColor=white" alt="Demo"/></a>
   <img src="https://img.shields.io/badge/淘宝店-天智工坊-FF6A00?style=flat-square&logo=alibabadotcom&logoColor=white" alt="Taobao"/>
   <img src="https://img.shields.io/badge/营业执照-已认证-2EA043?style=flat-square" alt="Licensed"/>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License"/></a>
@@ -69,15 +69,15 @@
 ### 5. [tianmind-landing](https://github.com/tianmind-studio/tianmind-landing)
 独立开发者 / 工作室品牌落地页模板。
 - 源码：<https://github.com/tianmind-studio/tianmind-landing>
-- 在线演示：<https://491034170.github.io/tianmind-landing/>
+- 在线演示：<https://tianmind-studio.github.io/tianmind-landing/>
 
 ### 6. [expert-review-panel](https://github.com/tianmind-studio/expert-review-panel)
 严审型 Claude Skill / AI 工作流，面向论文、BP、代码、竞赛材料的提交前评审。
-- Live Guide：<https://491034170.github.io/expert-review-panel/>
+- Live Guide：<https://tianmind-studio.github.io/expert-review-panel/>
 
 ### 7. [english-coach](https://github.com/tianmind-studio/english-coach)
 把 Claude 对话变成英语学习流程的 skill。
-- Live Guide：<https://491034170.github.io/english-coach/>
+- Live Guide：<https://tianmind-studio.github.io/english-coach/>
 
 ### 8. ruoyi-saas（私有商业项目，可提供 demo）
 基于 RuoYi-Vue 的多租户 SaaS 管理系统，支持泛域名部署和企业租户隔离。
